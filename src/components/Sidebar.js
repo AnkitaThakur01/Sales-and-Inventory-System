@@ -72,13 +72,13 @@ class Sidebar extends React.Component {
                 </i>
                 <ul className="dropdown-menu pull-right">
                   <li>
-                    <a
-                      href={Config.logoutPageUrl}
+                    <Link
+                      to={Config.logoutPageUrl}
                       className=" waves-effect waves-block"
                       ref={this.divref2}
                     >
                       <i className="material-icons">input</i>Sign Out
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

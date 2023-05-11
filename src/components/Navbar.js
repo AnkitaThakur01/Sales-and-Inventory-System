@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Config from "../utils/Config";
 
 class Navbar extends React.Component {
   render() {
@@ -6,12 +8,12 @@ class Navbar extends React.Component {
       <nav className="navbar">
         <div className="container-fluid">
           <div className="navbar-header">
-            <a href="#" className="bars" onClick={this.props.onBarClick}>
+          <a href="#" className="bars" onClick={this.props.onBarClick}>
             </a>
-            <a className="navbar-brand" href="index.html">
+            <Link to={Config.homeUrl} className="navbar-brand">
             S<span>ales</span>&nbsp;
             I<span>nsight</span>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

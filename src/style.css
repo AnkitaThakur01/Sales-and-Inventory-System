@@ -120,3 +120,13 @@
 .login-box .col-xs-6, .login-box .col-xs-12{
     margin-bottom: 0;
 }
+
+.sidebar .menu .list a{
+    color:rgb(38, 57, 77);
+}
+.menu li.active{
+    background-color: #ffb703 !important;
+}
+.menu li:hover{
+    background-color: #ede7e3;
+}

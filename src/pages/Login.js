@@ -97,10 +97,10 @@ class Login extends React.Component {
         />
         <div className="login-box">
           <div className="logo">
-            <a href="javascript:void(0);">
+          <a href="javascript:void(0);">
             S<span>ales</span>&nbsp;
             I<span>nsight</span>
-            </a>
+          </a>
 
           </div>
           <div className="card">
@@ -157,14 +157,6 @@ class Login extends React.Component {
                     >
                       SIGN IN
                     </button>
-                  </div>
-                </div>
-                <div className="row links">
-                  <div className="col-xs-6">
-                    <a href="sign-up.html">Register Now!</a>
-                  </div>
-                  <div className="col-xs-6 align-right">
-                    <a href="forgot-password.html">Forgot Password?</a>
                   </div>
                 </div>
               </form>

@@ -29,25 +29,25 @@ class Config {
   //   "https://medicalstoreapi.herokuapp.com/api/employee_salaryby_id/";
 
   //FOR TEST URL
-  static loginUrl = "http://127.0.0.1:8000/api/gettoken/";
-  static refreshApiUrl = "http://127.0.0.1:8000/api/resfresh_token/";
-  static companyApiUrl = "http://127.0.0.1:8000/api/company/";
-  static homeApiUrl = "http://127.0.0.1:8000/api/home_api/";
-  static customerRequestApiUrl = "http://127.0.0.1:8000/api/customer_request/";
-  static medicineNameApiUrl = "http://127.0.0.1:8000/api/medicinebyname/";
-  static companyBankApiUrl = "http://127.0.0.1:8000/api/companybank/";
-  static generateBillApiUrl = "http://127.0.0.1:8000/api/generate_bill_api/";
-  static companyAccountApiUrl = "http://127.0.0.1:8000/api/companyaccount/";
-  static companyOnly = "http://127.0.0.1:8000/api/companyonly/";
-  static employeeApiURL = "http://127.0.0.1:8000/api/employee/";
-  static medicineApiUrl = "http://127.0.0.1:8000/api/medicine/";
-  static employeeBankApiUrl = "http://127.0.0.1:8000/api/employee_all_bank/";
+  static loginUrl = "http://ankitathakur.pythonanywhere.com/api/gettoken/";
+  static refreshApiUrl = "http://ankitathakur.pythonanywhere.com/api/resfresh_token/";
+  static companyApiUrl = "http://ankitathakur.pythonanywhere.com/api/company/";
+  static homeApiUrl = "http://ankitathakur.pythonanywhere.com/api/home_api/";
+  static customerRequestApiUrl = "http://ankitathakur.pythonanywhere.com/api/customer_request/";
+  static medicineNameApiUrl = "http://ankitathakur.pythonanywhere.com/api/medicinebyname/";
+  static companyBankApiUrl = "http://ankitathakur.pythonanywhere.com/api/companybank/";
+  static generateBillApiUrl = "http://ankitathakur.pythonanywhere.com/api/generate_bill_api/";
+  static companyAccountApiUrl = "http://ankitathakur.pythonanywhere.com/api/companyaccount/";
+  static companyOnly = "http://ankitathakur.pythonanywhere.com/api/companyonly/";
+  static employeeApiURL = "http://ankitathakur.pythonanywhere.com/api/employee/";
+  static medicineApiUrl = "http://ankitathakur.pythonanywhere.com/api/medicine/";
+  static employeeBankApiUrl = "http://ankitathakur.pythonanywhere.com/api/employee_all_bank/";
   static employeeBankApiUrlBYID =
-    "http://127.0.0.1:8000/api/employee_bankby_id/";
+    "http://ankitathakur.pythonanywhere.com/api/employee_bankby_id/";
   static employeeSalaryApiUrl =
-    "http://127.0.0.1:8000/api/employee_all_salary/";
+    "http://ankitathakur.pythonanywhere.com/api/employee_all_salary/";
   static employeeSalaryByIdApiUrl =
-    "http://127.0.0.1:8000/api/employee_salaryby_id/";
+    "http://ankitathakur.pythonanywhere.com/api/employee_salaryby_id/";
   static homeUrl = "/home";
   static logoutPageUrl = "/logout";
 

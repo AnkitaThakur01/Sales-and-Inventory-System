@@ -82,11 +82,25 @@
 }
 
 .login-page {
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin: auto auto;
     background-image: url('https://1660200928.rsc.cdn77.org/wp-content/uploads/2019/07/How-to-Grow-Business-with-Steady-Sales-Flow-guest-post.jpg');
-    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.login-page .login-box{
+    margin-bottom: 20rem;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .login-page {
+        background: linear-gradient(to right, #3f4c6b, #606c88);
+    }
+} */
 
 .login-box .card{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;

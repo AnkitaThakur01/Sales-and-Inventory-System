@@ -14,13 +14,17 @@ class MainComponent extends React.Component {
   };
   onBarClick = () => {
     if (this.state.bodyClass == "my-theme ls-closed overlay-open") {
-      this.setState({ bodyClass: "my-theme ls-closed" });
-      this.setState({ displayOverlay: "none" });
+      this.onOutsideClick();
     } else if (this.state.bodyClass == "my-theme ls-closed") {
       this.setState({ bodyClass: "my-theme ls-closed overlay-open" });
       this.setState({ displayOverlay: "block" });
     }
   };
+
+  onOutsideClick = () => {
+    this.setState({ bodyClass: "my-theme ls-closed" });
+    this.setState({ displayOverlay: "none" });
+  }
 
   onscreenresize = () => {
     console.log(window.screen.width);
@@ -78,7 +82,7 @@ class MainComponent extends React.Component {
             },
           ]}
         />
-        <Overlay display={this.state.displayOverlay} />
+        <Overlay onOutsideClick={this.onOutsideClick} display={this.state.displayOverlay} />
         <Navbar onBarClick={this.onBarClick} />
         <Sidebar activepage={this.props.activepage} />
         <Page {...this.props} />

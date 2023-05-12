@@ -196,7 +196,7 @@ class CustomerRequestComponent extends React.Component {
                         <th>NAME</th>
                         <th>Phone</th>
                         <th>Medicine Details</th>
-                        <th>PRESCRIPTION</th>
+                        <th></th>
                         <th>Status</th>
                         <th>Added On</th>
                         <th>Action</th>

@@ -74,7 +74,7 @@ class HomeComponent extends React.Component {
         text: "Total Profit Chart of Medicine",
       },
       axisX: {
-        valueFormatString: "DD MMMM",
+        valueFormatString: "DD MMMM YY",
       },
       axisY: {
         title: "Profit ",
@@ -83,7 +83,7 @@ class HomeComponent extends React.Component {
       data: [
         {
           yValueFormatString: "$#,###",
-          xValueFormatString: "DD MMMM",
+          xValueFormatString: "DD MMMM YY",
           type: "spline",
           dataPoints: profitdatalist,
         },
@@ -95,7 +95,7 @@ class HomeComponent extends React.Component {
         text: "Total Sell Chart of Medicine",
       },
       axisX: {
-        valueFormatString: "DD MMMM",
+        valueFormatString: "DD MMMM YY",
       },
       axisY: {
         title: "Sales ",
@@ -104,7 +104,7 @@ class HomeComponent extends React.Component {
       data: [
         {
           yValueFormatString: "$##,###",
-          xValueFormatString: "DD MMMM",
+          xValueFormatString: "DD MMMM YY",
           type: "spline",
           dataPoints: selldatalist,
         },

@@ -98,8 +98,9 @@ class Login extends React.Component {
         <div className="login-box">
           <div className="logo">
           <a href="javascript:void(0);">
-            S<span>ales</span>&nbsp;
-            I<span>nsight</span>
+            S<span>ales</span> &
+            I<span>nventory</span>&nbsp; 
+            S<span>ystem</span>
           </a>
 
           </div>
